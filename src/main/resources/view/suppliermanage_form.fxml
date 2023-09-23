@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="375.0" prefWidth="448.0" style="-fx-background-color: #dfe6e9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.stokemanagesystem.controller.CustomerManageFormController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="29.0" prefHeight="38.0" prefWidth="316.0" text=" Supplier Manage" textFill="#f54d71">
+         <font>
+            <Font name="System Italic" size="26.0" />
+         </font>
+      </Label>
+      <TextField layoutX="31.0" layoutY="107.0" prefHeight="25.0" prefWidth="142.0" promptText=" supplier_id" />
+      <TextField layoutX="31.0" layoutY="241.0" promptText=" tel" />
+      <TextField layoutX="31.0" layoutY="154.0" prefHeight="25.0" prefWidth="347.0" promptText=" name" />
+      <TextField layoutX="31.0" layoutY="201.0" prefHeight="25.0" prefWidth="149.0" promptText=" shop" />
+      <Button layoutX="281.0" layoutY="315.0" mnemonicParsing="false" style="-fx-background-color: #0984e3;" text=" save" textFill="#6b5656" />
+      <Button layoutX="365.0" layoutY="315.0" mnemonicParsing="false" style="-fx-background-color: #81ecec;" text=" clear" textFill="#6b5656" />
+   </children>
+</AnchorPane>
